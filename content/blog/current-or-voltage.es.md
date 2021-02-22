@@ -11,7 +11,11 @@ categories = ["general"]
   alt = "Líneas de Transmisión"
   stretch = "stretchH"
 +++
-<p style="text-align: justify;">Posiblemente si te gusta la electrónica o simplemente por curiosidad, alguna vez te has hecho esa pregunta, pues la respuesta corta es la corriente, pero hay otros dos factores que debes tener en cuenta.
+<p style="text-align: justify;">Alguna vez has recibido una descarga manipulando un electrodoméstico? Si la respuesta es afirmativa te sentirás identificado con el tema que hablaremos hoy, y si nunca te ha ocurrido sigue leyendo y sabrás como evitarlas en un futuro. 
+
+La energía eléctrica es parte fundamental de nuestras vidas, la podemos ver en todas partes y sin ella no viviríamos en la sociedad moderna que hoy tenemos, sin embargo así como es uno de los ejes de la sociedad actual, tambien existe mucho desconocimiento acerca de la misma y a lo largo de este post se estarán aclarando algunos conceptos básicos y algunas medidas de seguridad que se deben tener en cuenta.
+
+Uno de los mitos más extendidos actualmente, es el hecho de que el alto voltaje es el causante de la mayoría de los accidentes eléctricos, y aunque en parte es cierto, se debe tener en cuenta que hay más factores involucrados y en ocasiones puede ser igual de letal el flujo de corriente de miles de voltios que un flujo de corriente causado por unos pocos voltios.  
 
 Según la ley de Ohm, el voltaje es igual a la resistencia multiplicada por la corriente:
 
@@ -63,6 +67,10 @@ Otra situación posible es la siguiente:
 <p>
 Cuando dos resistencias se encuentran en paralelo, el voltaje en cada una de ellas es el mismo, por lo tanto es posible aplicar la ley de ohm independientemente, de tal forma que para la lámpara, la corriente resultante van a ser los 8 amperios requeridos y la misma se va a encender, sin embargo la resistencia de nuestro cuerpo sigue siendo de un gran valor, y la corriente a través de él seguirá sin superar los 3 mA.
 </p>
+
+<script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
