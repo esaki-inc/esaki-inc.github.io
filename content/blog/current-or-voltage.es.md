@@ -53,8 +53,8 @@ Se puede observar que la resistencia de la lámpara es bastante pequeña con res
 
 </p>
 
+{{% figure src="/img/2021/02/current-series.png" alt="Lámpara en serie con manos"%}}
 
-![Lampara en serie con manos](/img/2021/02/current-series.png)
 
 <p style="text-align: justify;">
 En este caso la resistencia de la lampara se suma a la de nuestro cuerpo, siendo la resistencia total igual a 4001.5 Ohms de tal forma que por ley de ohm la corriente en el circuito va a ser menos de 3 mA, la lampara no se encenderá y la corriente será inofensiva para nosotros.
@@ -62,10 +62,17 @@ En este caso la resistencia de la lampara se suma a la de nuestro cuerpo, siendo
 Otra situación posible es la siguiente:
 </p>
 
-![Lampara en paralelo con manos](/img/2021/02/current-parallel.png)
+{{% figure src="/img/2021/02/current-parallel.png"  alt="Lámpara en paralelo con manos"%}}
 
 <p>
 Cuando dos resistencias se encuentran en paralelo, el voltaje en cada una de ellas es el mismo, por lo tanto es posible aplicar la ley de ohm independientemente, de tal forma que para la lámpara, la corriente resultante van a ser los 8 amperios requeridos y la misma se va a encender, sin embargo la resistencia de nuestro cuerpo sigue siendo de un gran valor, y la corriente a través de él seguirá sin superar los 3 mA.
+
+Hasta ahora hemos venido empleando un valor constante para la resistencia de la piel, pero es importante destacar que dicho valor va a depender de otros factores, como pueden serlo la edad, características ambientales, etc. Un factor a tener en cuenta es la humedad, a mayor humedad, menor será la resistencia de la piel, por lo tanto se alcanzarán valores de corrientes más altos incluso con voltajes inferiores.
+
+En conclusión es importante tomar precaución cuando se está trabajando con voltajes elevados, sin embargo no se deben tomar a la ligera los voltajes pequeños, ya que como se demostró anteriormente incluso con voltajes de menor magnitud se pueden alcanzar corrientes significativas.  
+
+Finalmente, como recomendaciones se tienen, siempre realizar las conexiones con la fuente apagada para evitar cualquier tipo de riesgo y bajo ninguna circunstancia trabajar con corriente eléctrica bajo condiciones de humedad, de igual forma se recomienda tener siempre equipamiento de seguridad como lo son guantes de protección y el calzado aislante pertinente.
+
 </p>
 
 <script type="text/javascript"
