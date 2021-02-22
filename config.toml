@@ -33,7 +33,7 @@ disableLanguages        = []
   [params.meta]
     description         = "A Blog and a Project Idea handbook."
     author              = "Miguel Freytes"
-    favicon             = false
+    favicon             = true
     svg                 = true
     faviconVersion      = "1"
     msColor             = "#ffffff"
@@ -49,7 +49,7 @@ disableLanguages        = []
   [params.intro]
     header                = "Esaki"
     paragraph             = "A Blog and a Project Idea handbook by Miguel Freytes."
-    rssIntro              = true
+    rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
     alwaysOnHomepage      = false
@@ -58,11 +58,11 @@ disableLanguages        = []
       src                 = "img/main/esaki.png"
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "Esaki Diode"
 
   [params.sidebar]
-    about               = "This theme was developed for Hugo static site generator."
-    postAmount          = 5
+    about               = "The purpose of this site is to help electronics enthusiasts to learn more about this wonderful world."
+    postAmount          = 3
     categories          = true
     categoriesByCount   = true
 
@@ -129,9 +129,99 @@ disableLanguages        = []
 
 
   [Languages.es]
+    
     LanguageCode        = "es"
     LanguageName        = "Español"
     weight              = 2
+    title = "Esaki Página Oficial"
+
+    [Languages.es.params]
+      enableCDN             = false
+      cssFiles              = ["default"]
+      jsFiles               = ["default"]
+      highlightjs           = true
+      highlightjsTheme      = ""
+      highlightjsLang       = []
+      viewMorePostsLink     = "/blog/"
+      readingTime           = true
+      imageStretch          = ""
+      removeBlur            = false
+      socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+      hideEmptyStats        = false
+
+      [Languages.es.params.meta]
+      author              = "Miguel Freytes"
+      favicon             = false
+      svg                 = true
+      faviconVersion      = "1"
+      msColor             = "#ffffff"
+      iOSColor            = "#ffffff"
+      description = "Blog y Catálogo de proyectos de Electrónica por Miguel Freytes"
+
+      [Languages.es.params.header]
+
+      navbarTitle = "Inicio"
+      dynamicTitles       = true
+      searchMenu          = true
+      shareMenu           = true
+      languageMenu        = true
+      
+      [Languages.es.params.intro]
+      rssIntro              = false
+      socialIntro           = true
+      hideWhenSingleColumn  = false
+      alwaysOnHomepage      = false
+      paragraph = "Blog y Catálogo de proyectos de Electrónica por Miguel Freytes"
+
+        [Languages.es.params.intro.pic]
+        src                 = "img/main/esaki.png"
+        shape               = "circle"
+        width               = ""
+        alt                 = "Diodo Esaki"
+
+      [Languages.es.params.sidebar]
+      about               = "El propósito de este sitio es ayudar a los entusiastas de la electrónica a conocer más acerca de este maravilloso mundo"
+      postAmount          = 3
+      categories          = true
+      categoriesByCount   = true
+
+    [Languages.es.menu]
+
+      [[Languages.es.menu.main]]
+        name              = "Inicio"
+        identifier        = "inicio"
+        url               = "/"
+        pre               = "<i class='fa fa-home'></i>"
+        weight            = 1
+
+      [[Languages.es.menu.main]]
+        name              = "Proyectos"
+        identifier        = "proyectos"
+        url               = "/projects/"
+        pre               = "<i class='fas fa-puzzle-piece'></i>"
+        weight            = 2
+
+      [[Languages.es.menu.main]]
+        name              = "Blog"
+        identifier        = "blog"
+        url               = "/blog/"
+        pre               = "<i class='far fa-newspaper'></i>"
+        weight            = 3
+
+      [[Languages.es.menu.main]]
+        name              = "Categorías"
+        identifier        = "categorías"
+        url               = "/categories/"
+        pre               = "<i class='fas fa-sitemap'></i>"
+        weight            = 5
+
+      [[Languages.es.menu.main]]
+        name              = "Contacto"
+        identifier        = "contacto"
+        url               = "/contact/"
+        pre               = "<i class='far fa-envelope'></i>"
+        weight            = 6
+    
 
   
 [social]

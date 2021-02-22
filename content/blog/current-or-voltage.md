@@ -5,6 +5,7 @@ description = "An overview about the differences bewteen electrical current and 
 author = "Miguel Freytes"
 date = 2021-02-21
 tags = ["voltage","current", "resistance"]
+categories = ["general"]
 [[images]]
   src = "img/2021/02/current-or-voltage.jpg"
   alt = "Transmission Lines"
