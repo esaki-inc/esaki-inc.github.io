@@ -64,7 +64,7 @@ Otra situación posible es la siguiente:
 
 {{% figure src="/img/2021/02/current-parallel.png"  alt="Lámpara en paralelo con manos"%}}
 
-<p>
+<p style="text-align: justify;">
 Cuando dos resistencias se encuentran en paralelo, el voltaje en cada una de ellas es el mismo, por lo tanto es posible aplicar la ley de ohm independientemente, de tal forma que para la lámpara, la corriente resultante van a ser los 8 amperios requeridos y la misma se va a encender, sin embargo la resistencia de nuestro cuerpo sigue siendo de un gran valor, y la corriente a través de él seguirá sin superar los 3 mA.
 
 Hasta ahora hemos venido empleando un valor constante para la resistencia de la piel, pero es importante destacar que dicho valor va a depender de otros factores, como pueden serlo la edad, características ambientales, etc. Un factor a tener en cuenta es la humedad, a mayor humedad, menor será la resistencia de la piel, por lo tanto se alcanzarán valores de corrientes más altos incluso con voltajes inferiores.
