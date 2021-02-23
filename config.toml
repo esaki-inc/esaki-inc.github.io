@@ -151,7 +151,7 @@ disableLanguages        = []
 
       [Languages.es.params.meta]
       author              = "Miguel Freytes"
-      favicon             = false
+      favicon             = true
       svg                 = true
       faviconVersion      = "1"
       msColor             = "#ffffff"
