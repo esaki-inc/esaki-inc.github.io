@@ -30,9 +30,9 @@ Lista de Materiales:
 <p style="text-align: justify-all;">
 Para este ejemplo estaremos usando el microcontrolador PIC 16f84A, pero es posible utilizar cualquier otro microcontrolador siempre y cuando tenga 2 puertos, y uno de ellos sea de 8 bits.
 
-El funcionamiento del generador de señales que estaremos armando se basa en el principio del convertidor Digital - Analógico (ADC), mediante el codigo que cargaremos al microcontrolador tendremos una salida digital de 8 bits variante en el tiempo y a través del uso del ADC generaremos la señal deseada.
+El funcionamiento del generador de señales que estaremos armando se basa en el principio del convertidor Digital - Analógico (DAC), mediante el codigo que cargaremos al microcontrolador tendremos una salida digital de 8 bits variante en el tiempo y a través del uso del DAC generaremos la señal deseada.
 
-Si no estás muy familiarizado con el funcionamiento del convertidor ADC te recomendamos que visites nuestro post referente a los ADC <a href="#">aquí</a>.
+Si no estás muy familiarizado con el funcionamiento del convertidor DAC te recomendamos que visites nuestro post referente a los DAC <a href="#">aquí</a>.
 
 A continuación se muestra el codigo que estaremos empleando, es importante destacar que estamos utilizando el compilador <strong>PIC C Compiler</strong> por lo que puede tener ciertas diferencias con el tuyo en específico, sin embargo las funciones en todos los compiladores son muy similares.
 
