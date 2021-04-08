@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8">
+<title>Generador de Señales con Microcontrolador Pic - Esaki Página Oficial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hugo 0.82.0" /><meta property="og:site_name" content="Esaki Página Oficial">
+  <meta property="og:title" content="Generador de Señales con Microcontrolador Pic">
+  <meta property="og:description" content="Blog y Catálogo de proyectos de Electrónica por Miguel Freytes">
+  <meta property="description" content="Blog y Catálogo de proyectos de Electrónica por Miguel Freytes">
+  <meta property="og:url" content="https://esaki.xyz/es/projects/wave-generator/">
+  <meta property="og:type" content="article">
+  
+    
+      <meta property="og:image" content="https://esaki.xyz/img/2021/02/wave-generator.jpg">
+      <meta property="og:image:alt" content="Generador de Ondas con pic">
+    
+  
+  <link rel="stylesheet" href="/css/bundle.min.9b0f87cba51f7b7938d133fa4e3fd7462aaef0ee900f2c696d7b57cedb163e70.css" integrity="sha256-mw&#43;Hy6Ufe3k40TP6Tj/XRiqu8O6QDyxpbXtXztsWPnA="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/es/" class="nav">
+        
+          Generador de Señales con Microcontrolador Pic
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/es/" class="nav link"><i class='fa fa-home'></i> Inicio</a>
+        
+      
+        
+          
+          <a href="/es/projects/" class="nav link"><i class='fas fa-puzzle-piece'></i> Proyectos</a>
+        
+      
+        
+          
+          <a href="/es/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/es/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categorías</a>
+        
+      
+        
+          
+          <a href="/es/contact/" class="nav link"><i class='far fa-envelope'></i> Contacto</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="es">es</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="es" class="nav link active">Español (es)</a>
+  
+    
+      
+        <a href="/en" lang="en" class="nav no-lang link">English (en)</a>
+      
+    
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic&amp;url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f&amp;title=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f&amp;title=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f&amp;description=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Mira%20esta%20publicaci%c3%b3n%20por Miguel%20Freytes&amp;body=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/es/"><img src="https://esaki.xyz/img/main/esaki.png" class="circle" width="100" alt="Diodo Esaki" /></a>
+  <header>
+    
+  </header>
+  <main>
+    <p>Blog y Catálogo de proyectos de Electrónica por Miguel Freytes</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+        <li><a href="//github.com/mianfremo" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//instagram.com/miguel.freytes" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/freytesssss" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:miguelfreytes09@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article class="post">
+    <header>
+  <div class="title">
+    
+      <h2><a href="/es/projects/wave-generator/">Generador de Señales con Microcontrolador Pic</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2021-02-24 00:00:00 -0400 -04">24 de Enero, 2021</time>
+    <p>Miguel Freytes</p>
+    <p>Lectura De 5 Minutos</p>
+  </div>
+</header>
+
+    <div id="socnet-share">
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic&amp;url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f&amp;title=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f&amp;title=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f&amp;description=Generador%20de%20Se%c3%b1ales%20con%20Microcontrolador%20Pic" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Mira%20esta%20publicaci%c3%b3n%20por Miguel%20Freytes&amp;body=https%3a%2f%2fesaki.xyz%2fes%2fprojects%2fwave-generator%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </div>
+    <div class="content">
+      <a href="/es/projects/wave-generator/" class="image" style="--bg-image: url('https://esaki.xyz/img/2021/02/wave-generator.jpg');">
+    <img class="" src="https://esaki.xyz/img/2021/02/wave-generator.jpg" alt="Generador de Ondas con pic">
+  </a>
+      <p style="text-align: justify-all;">
+Los generadores de señales son unos dispositivos muy útiles en caso de que queramos observar el comportamiento de un circuito para diferentes señales de entrada, en este post se explicará como hacer uno con algunas características básicas pero puede ser tomado como base para un proyecto aun más complejo.
+<p>En este post hablaremos un poco de programación en C y Python, si no estás muy familiarizado con estos lenguajes no te preocupes, ya que explicaremos cada línea paso por paso, sin embargo es importante que tengas noción de las estructuras básicas de programación.</p>
+<p>Lista de Materiales:</p>
+</p>
+<ul>
+	<li>Microcontrolador PIC 16f84A</li>
+	<li>9 Resistencias de 20kΩ</li>
+	<li>8 Resistencias de 10kΩ</li>
+	<li>Pulsador</li>
+	<li>Fuente de Alimentación</li>
+</ul>
+<p style="text-align: justify-all;">
+Para este ejemplo estaremos usando el microcontrolador PIC 16f84A, pero es posible utilizar cualquier otro microcontrolador siempre y cuando tenga 2 puertos, y uno de ellos sea de 8 bits.
+<p>El funcionamiento del generador de señales que estaremos armando se basa en el principio del convertidor Digital - Analógico (DAC), mediante el codigo que cargaremos al microcontrolador tendremos una salida digital de 8 bits variante en el tiempo y a través del uso del DAC generaremos la señal deseada.</p>
+<p>Si no estás muy familiarizado con el funcionamiento del convertidor DAC te recomendamos que visites nuestro post referente a los DAC <a href="#">aquí</a>.</p>
+<p>A continuación se muestra el codigo que estaremos empleando, es importante destacar que estamos utilizando el compilador <strong>PIC C Compiler</strong> por lo que puede tener ciertas diferencias con el tuyo en específico, sin embargo las funciones en todos los compiladores son muy similares.</p>
+</p>
+<pre class="r"><code>
+// Directivas de Preprocesado
+#include < 16f84A.h >
+#include < math.h >
+#fuses XT, NOWDT, NOPROTECT
+
+// Definiendo la Velocidad del Reloj 4MHz
+#use delay (clock = 4000000)
+// Definiendo el puerto predeterminado al puerto B
+#use standard_io(b)
+
+// Inicialización de variables
+int i = 0;
+int j = 0x00;
+int sel = 0;
+int seno[52] = {128, 143, 159, 174, 188, 201, 213, 224, 234, 242, 248, 252, 254, 255, 253,
+250, 245, 238, 229, 219, 207, 195, 181, 166, 151, 135, 120, 104, 89, 74, 60, 48, 36, 26,
+17, 10, 5, 2, 0, 1, 3, 7, 13, 21, 31, 42, 54, 67, 81, 96, 112, 127};
+
+void main(){
+   // Definiendo Función de los pines de los puertos
+   // "0" para usar los puertos como salida
+   // "1" para usarlos como entradas
+
+   set_tris_b(0x00);
+   set_tris_a(0b00011111);
+
+   // Inicializando los pines del puerto B a 0
+   output_b(0);
+
+   while(TRUE){
+      // Leemos el pin 0 del puerto A, si el botón está presionado incrementa en 1 la variable de selección
+      if(input(PIN_A0)){
+         sel++;
+         // Debemos ponerle cierto delay para que evite detectar pulsaciones repetidas
+         delay_ms(100);
+
+         // En caso de que el selector llegue a la 3era señal y se vuelva a presionar se reinicia
+         if(sel>=3){
+            sel = 0;
+         }
+      }
+
+      // Si el selector se encuentra en 0 la salida es la onda cuadrada
+      if(sel == 0){
+         if(i==255){
+            i=0;
+         }else{
+            if(i<128){
+               output_b(0xff);
+               i++;
+            }
+            else{
+               output_b(0x00);
+               i++;
+            }
+         }
+      }
+
+      // Si el selector se encuentra en 1 la salida es la señal diente de sierra
+      if(sel == 1){
+         if(j==0xff){
+            j = 0x00;
+            output_b(j);
+         }else{
+            j++;
+            output_b(j);
+         }
+      }
+
+
+      // Si el selector se encuentra en 2 la salida es la señal senoidal
+      if(sel == 2){
+         if(i==52){
+            i = 0;
+            
+         }else{
+            
+            output_b(seno[i]);
+            
+            i++;
+         }
+      }
+
+   }
+}
+
+
+</code></pre>
+<p style="text-align: justify-all;">
+El funcionamiento del codigo es bastante sencillo, simplemente iniciamos un ciclo que estará activo todo el tiempo y que se encargará de verificar la señal que tenemos seleccionada y generarla. Basicamente al momento de presionar el pulsador, cambiará la variable de selección y dependiendo del valor de esa variable, la señal de salida será una u otra.
+<p><strong>Onda Cuadrada</strong></p>
+<p>Para el caso de la onda cuadrada, tendremos un contador que irá desde 0 a 255, y se estará incrementando cada pulso de reloj, para esta forma de onda se requiere que la mitad del ciclo de trabajo tenga tensión y la otra mitad no la tenga, por lo tanto cuando el contador alcanza la mitad del valor máximo varía a su segundo estado, si el contador alcanza el limite máximo se reinicia, volviendo a comenzar de nuevo.</p>
+<p><strong>Onda Diente de Sierra</strong></p>
+<p>La señal diente de sierra tiene una forma particular, la cual va incrementando su valor progresivamente hasta llegar a su máximo donde se reinicia, por lo tanto solo fue necesario el uso de un contador que al llegar a 256 volviera a comenzar, dando como resultado la forma de onda deseada.</p>
+<p><strong>Onda Senoidal</strong></p>
+<p>Para la onda senoidal el proceso es algo más complejo, debido a que el dispositivo no dispone de mucha memoria RAM, no es posible calcular los valores de la señal senoidal en tiempo real, por lo tanto es necesario precargar en la memoria del dispositivo los valores a ejecutar. Para ello se empleo un array de enteros con los valores precalculados y posteriormente se iba leyendo dicho array con el contador usado en la onda cuadrada.</p>
+<p>Si deseas obtener los valores para la señal senoidal puedes emplear varios métodos, a continuación se muestra un código básico de python que genera un número determinado de valores de la función seno:</p>
+</p>
+<pre>
+<code>
+import math
+
+// Creación del array para los valores
+numeros = []
+
+// Ciclo con 255 valores que avanza en pasos de 5
+// Si posees un microcontrolador de mayor capacidad puedes emplear más valores
+// y tendrá una forma más fiel a la función seno
+
+for i in range(0,256,5):
+
+   // Regla de 3 para convertir el valor de i en un angulo no mayor a 360°
+   angle = (i*360.0)/255.0;
+
+   // Convirtiendo el angulo obtenido a radianes
+   radian = angle*math.pi/180.0;
+
+   // Determinando el seno del angulo y sumando 1 para evitar valores negativos
+   angleSin = math.sin(radian)+1.0;
+
+   // Aplicando una regla de 3 nuevamente para tener valores entre 0 y 255
+   digital = round(angleSin*255.0/2.0);
+
+   // Anexando los valores al array
+   numeros.append(digital)
+
+print(numeros)
+</code>
+</pre>
+<p style="text-align: justify-all;">
+Ejecutando el codigo anterior puedes obtener una serie de valores de la onda seno que van entre 0 y 255 para ser enviados al puerto B directamente.
+<p>Luego de haber compilado y cargado el programa en el microcontrolador, procedemos a realizar el montaje del circuito del esquema.</p>
+</p>
+<figure>
+    <img src="/img/2021/02/wave-generator-diagram.jpg"
+         alt="Diagrama generador de señales con PIC"/> 
+</figure>
+<p style="text-align: justify-all;">
+La simulación anterior muestra un osciloscopio conectado a la salida del convertidor ADC, dando como resultado las siguientes salidas:
+</p>
+<figure>
+    <img src="/img/2021/02/wave-generator-output.jpg"
+         alt="Salida del Generador de Señales con PIC"/> 
+</figure>
+<p style="text-align: justify-all;">
+Gracias por leer! Śiguenos y no te pierdas los demás proyectos que publicamos.
+</p>
+    </div>
+    <footer>
+      <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/es/categories/microcontroladores/">microcontroladores</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/es/tags/generador/">generador</a></li>
+        
+          <li><a class="article-terms-link" href="/es/tags/microcontrolador/">microcontrolador</a></li>
+        
+          <li><a class="article-terms-link" href="/es/tags/pic/">pic</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+    </footer>
+  </article>
+  
+    
+  <article class="post">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "esaki" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </article>
+
+
+
+  
+  <div class="pagination">
+    
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Posts Recientes</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/es/blog/current-or-voltage/" class="image" style="--bg-image: url('https://esaki.xyz/img/2021/02/current-or-voltage.jpg');">
+    <img class="" src="https://esaki.xyz/img/2021/02/current-or-voltage.jpg" alt="Líneas de Transmisión">
+  </a>
+        <header>
+          <h2><a href="/es/blog/current-or-voltage/">Qué es más peligroso, la corriente o el voltaje?</a></h2>
+          <time class="published" datetime="2021-02-21 00:00:00 -0400 -04">21 de Enero, 2021</time>
+        </header>
+      </article>
+      
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/es/categories">Categorías</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="/es/categories/general/">general<span class="count">1</span></a>
+          
+          <li>
+              <a href="/es/categories/microcontroladores/">microcontroladores<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>Sobre</h1>
+      </header>
+      <p>El propósito de este sitio es ayudar a los entusiastas de la electrónica a conocer más acerca de este maravilloso mundo</p>
+      <footer>
+        <a href="/es/about" class="button">Aprende Más</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/mianfremo" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//instagram.com/miguel.freytes" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/freytesssss" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:miguelfreytes09@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    © 2021 Esaki Página Oficial
+      <br>
+    Tema: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>Adaptado de <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP</a> | Impulsado por <a href='https://gohugo.io/' title='0.82.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.3636570d13f0810e9f3329e953a3f542a2628b6fb86b986c1962fda162cb74d7.js" integrity="sha256-NjZXDRPwgQ6fMynpU6P1QqJii2&#43;4a5hsGWL9oWLLdNc="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

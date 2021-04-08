@@ -2,9 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Esaki Official Website</title>
-    <link>https://example.com/categories/</link>
+    <link>https://esaki.xyz/categories/</link>
     <description>Recent content in Categories on Esaki Official Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 -0400</lastBuildDate><atom:link href="https://esaki.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>general</title>
+      <link>https://esaki.xyz/categories/general/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 -0400</pubDate>
+      
+      <guid>https://esaki.xyz/categories/general/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

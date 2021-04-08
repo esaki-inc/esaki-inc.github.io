@@ -1,93 +1,97 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://example.com/blog/</loc>
-    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/current/</loc>
-    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/</loc>
+    <loc>https://esaki.xyz/blog/</loc>
     <lastmod>2021-02-21T00:00:00-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://example.com/es/"
+                href="https://esaki.xyz/es/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://esaki.xyz/blog/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/resistance/</loc>
-    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
+  </url><url>
+    <loc>https://esaki.xyz/categories/</loc>
     <lastmod>2021-02-21T00:00:00-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://example.com/es/tags/"
+                href="https://esaki.xyz/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://esaki.xyz/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/voltage/</loc>
+  </url><url>
+    <loc>https://esaki.xyz/tags/current/</loc>
     <lastmod>2021-02-21T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/blog/current-or-voltage/</loc>
+  </url><url>
+    <loc>https://esaki.xyz/</loc>
     <lastmod>2021-02-21T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/blog/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://esaki.xyz/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://esaki.xyz/"
+                />
+  </url><url>
+    <loc>https://esaki.xyz/categories/general/</loc>
+    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://esaki.xyz/es/categories/general/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://esaki.xyz/categories/general/"
+                />
+  </url><url>
+    <loc>https://esaki.xyz/tags/resistance/</loc>
+    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://esaki.xyz/tags/</loc>
+    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://esaki.xyz/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://esaki.xyz/tags/"
+                />
+  </url><url>
+    <loc>https://esaki.xyz/tags/voltage/</loc>
+    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://esaki.xyz/blog/current-or-voltage/</loc>
+    <lastmod>2021-02-21T00:00:00-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://esaki.xyz/es/blog/current-or-voltage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://esaki.xyz/blog/current-or-voltage/"
+                />
+  </url><url>
+    <loc>https://esaki.xyz/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://esaki.xyz/contact/</loc>
   </url>
-  
-  <url>
-    <loc>https://example.com/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://example.com/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://example.com/contact/</loc>
-  </url>
-  
 </urlset>

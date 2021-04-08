@@ -2,14 +2,16 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://example.com/en/sitemap.xml</loc>
+    <loc>https://esaki.xyz/en/sitemap.xml</loc>
     
       <lastmod>2021-02-21T00:00:00-04:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://example.com/es/sitemap.xml</loc>
+    <loc>https://esaki.xyz/es/sitemap.xml</loc>
+    
+      <lastmod>2021-02-24T00:00:00-04:00</lastmod>
     
   </sitemap>
   

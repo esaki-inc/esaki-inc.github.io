@@ -2,27 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Esaki Official Website</title>
-    <link>https://example.com/blog/</link>
+    <link>https://esaki.xyz/blog/</link>
     <description>Recent content in Blog on Esaki Official Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 -0400</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 -0400</lastBuildDate><atom:link href="https://esaki.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What’s more dangerous, a higher voltage or a higher current?</title>
-      <link>https://example.com/blog/current-or-voltage/</link>
+      <title>What&#39;s more dangerous, a Higher Current or a Higher Voltage?</title>
+      <link>https://esaki.xyz/blog/current-or-voltage/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 -0400</pubDate>
       
-      <guid>https://example.com/blog/current-or-voltage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://example.com/blog/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://esaki.xyz/blog/current-or-voltage/</guid>
+      <description>Have you ever received an electrical discharge using an electrical appliance? If the answer is affirmative, you&#39;ll feel identified with today&#39;s topic, and if never have happened to you, keep reading and you&#39;ll learn how to avoid them in a future. Electrical energy is a fundamental part of our lives, you can find it everywhere and without it we wouldn&amp;rsquo;t live in the modern society that we have, although it&amp;rsquo;s one of the most important things in our society, also there&amp;rsquo;s a lot of ignorance about it, that&amp;rsquo;s why in this post we&amp;rsquo;re gonna clarify some basic concepts and some safety advices that you should know.</description>
     </item>
     
   </channel>
